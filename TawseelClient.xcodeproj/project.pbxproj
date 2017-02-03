@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199E23A21E40833C00015306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199E23A11E40833C00015306 /* AppDelegate.swift */; };
+		199E23A41E40833C00015306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199E23A31E40833C00015306 /* ViewController.swift */; };
+		199E23A71E40833D00015306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199E23A51E40833D00015306 /* Main.storyboard */; };
+		199E23A91E40833D00015306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199E23A81E40833D00015306 /* Assets.xcassets */; };
+		199E23AC1E40833D00015306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199E23AA1E40833D00015306 /* LaunchScreen.storyboard */; };
+		199E23B41E4083EC00015306 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199E23B31E4083EC00015306 /* GoogleService-Info.plist */; };
+		8D32A9432297A1F9BEF70877 /* Pods_TawseelClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DFBE3EA88AB7ED41D3FB97 /* Pods_TawseelClient.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A48DCFBF3C3D65E0E3BFE0 /* Pods-TawseelClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawseelClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-TawseelClient/Pods-TawseelClient.release.xcconfig"; sourceTree = "<group>"; };
+		199E239E1E40833C00015306 /* TawseelClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TawseelClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199E23A11E40833C00015306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		199E23A31E40833C00015306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		199E23A61E40833D00015306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		199E23A81E40833D00015306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199E23AB1E40833D00015306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		199E23AD1E40833D00015306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199E23B31E4083EC00015306 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56DFBE3EA88AB7ED41D3FB97 /* Pods_TawseelClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawseelClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BCCCD87B807C6224B9435E /* Pods-TawseelClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawseelClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TawseelClient/Pods-TawseelClient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199E239B1E40833C00015306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D32A9432297A1F9BEF70877 /* Pods_TawseelClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199E23951E40833C00015306 = {
+			isa = PBXGroup;
+			children = (
+				199E23A01E40833C00015306 /* TawseelClient */,
+				199E239F1E40833C00015306 /* Products */,
+				B36FE92F20843417791534C4 /* Pods */,
+				EF5758E5A77AD9BFE2ED98BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		199E239F1E40833C00015306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199E239E1E40833C00015306 /* TawseelClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199E23A01E40833C00015306 /* TawseelClient */ = {
+			isa = PBXGroup;
+			children = (
+				199E23A11E40833C00015306 /* AppDelegate.swift */,
+				199E23A31E40833C00015306 /* ViewController.swift */,
+				199E23A51E40833D00015306 /* Main.storyboard */,
+				199E23A81E40833D00015306 /* Assets.xcassets */,
+				199E23AA1E40833D00015306 /* LaunchScreen.storyboard */,
+				199E23AD1E40833D00015306 /* Info.plist */,
+				199E23B31E4083EC00015306 /* GoogleService-Info.plist */,
+			);
+			path = TawseelClient;
+			sourceTree = "<group>";
+		};
+		B36FE92F20843417791534C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1BCCCD87B807C6224B9435E /* Pods-TawseelClient.debug.xcconfig */,
+				04A48DCFBF3C3D65E0E3BFE0 /* Pods-TawseelClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF5758E5A77AD9BFE2ED98BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DFBE3EA88AB7ED41D3FB97 /* Pods_TawseelClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199E239D1E40833C00015306 /* TawseelClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199E23B01E40833D00015306 /* Build configuration list for PBXNativeTarget "TawseelClient" */;
+			buildPhases = (
+				FB1833F01A6AD04CAB5A192F /* [CP] Check Pods Manifest.lock */,
+				199E239A1E40833C00015306 /* Sources */,
+				199E239B1E40833C00015306 /* Frameworks */,
+				199E239C1E40833C00015306 /* Resources */,
+				941B24746A782B307ECE4DEF /* [CP] Embed Pods Frameworks */,
+				CC6BE98450020C70F71A4FA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TawseelClient;
+			productName = TawseelClient;
+			productReference = 199E239E1E40833C00015306 /* TawseelClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199E23961E40833C00015306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tawseel;
+				TargetAttributes = {
+					199E239D1E40833C00015306 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Y26C7GHNEV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 199E23991E40833C00015306 /* Build configuration list for PBXProject "TawseelClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199E23951E40833C00015306;
+			productRefGroup = 199E239F1E40833C00015306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199E239D1E40833C00015306 /* TawseelClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199E239C1E40833C00015306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199E23AC1E40833D00015306 /* LaunchScreen.storyboard in Resources */,
+				199E23B41E4083EC00015306 /* GoogleService-Info.plist in Resources */,
+				199E23A91E40833D00015306 /* Assets.xcassets in Resources */,
+				199E23A71E40833D00015306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		941B24746A782B307ECE4DEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TawseelClient/Pods-TawseelClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6BE98450020C70F71A4FA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TawseelClient/Pods-TawseelClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1833F01A6AD04CAB5A192F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199E239A1E40833C00015306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199E23A41E40833C00015306 /* ViewController.swift in Sources */,
+				199E23A21E40833C00015306 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		199E23A51E40833D00015306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199E23A61E40833D00015306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199E23AA1E40833D00015306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199E23AB1E40833D00015306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199E23AE1E40833D00015306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		199E23AF1E40833D00015306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199E23B11E40833D00015306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BCCCD87B807C6224B9435E /* Pods-TawseelClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y26C7GHNEV;
+				INFOPLIST_FILE = TawseelClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MaAmer.TawseelClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		199E23B21E40833D00015306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A48DCFBF3C3D65E0E3BFE0 /* Pods-TawseelClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y26C7GHNEV;
+				INFOPLIST_FILE = TawseelClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MaAmer.TawseelClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199E23991E40833C00015306 /* Build configuration list for PBXProject "TawseelClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199E23AE1E40833D00015306 /* Debug */,
+				199E23AF1E40833D00015306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199E23B01E40833D00015306 /* Build configuration list for PBXNativeTarget "TawseelClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199E23B11E40833D00015306 /* Debug */,
+				199E23B21E40833D00015306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199E23961E40833C00015306 /* Project object */;
+}
